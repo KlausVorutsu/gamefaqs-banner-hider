@@ -1,10 +1,11 @@
 // ==UserScript==
-// @name         GameFAQs Guide Banner Hider
+// @name         GameFAQs Guide & Map Banner Hider
 // @namespace    http://tampermonkey.net/
-// @version      1.0
-// @description  Permanently hides the "Would you recommend this Guide?" banner on GameFAQs.
+// @version      1.1
+// @description  Permanently hides the "Would you recommend this..." banner on GameFAQs guides and maps.
 // @author       KlausVorutsu
 // @match        *://gamefaqs.gamespot.com/*/faqs/*
+// @match        *://gamefaqs.gamespot.com/*/map/*
 // @icon         https://gamefaqs.gamespot.com/a/images/site/g_v13_dark.png
 // @grant        GM_addStyle
 // @run-at       document-end
